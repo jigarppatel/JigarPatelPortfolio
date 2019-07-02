@@ -27,7 +27,7 @@ namespace JigarPatelPortfolio
 
             app.Run(async (context) =>
             {
-                await context.Response.WriteAsync("Hello World!");
+                await context.Response.WriteAsync("First ASP.NET Core with Azure");
             });
         }
     }
